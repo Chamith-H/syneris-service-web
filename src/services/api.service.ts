@@ -2,7 +2,9 @@ import Axios from "axios";
 import { toast } from "react-toastify";
 
 const BASE_URL =
-  "https://syn-ser-app-hmg9ebcpaph0btf0.westus2-01.azurewebsites.net";
+  "https://syneris-service-v1-epancddvcmbuf7eh.westus2-01.azurewebsites.net";
+
+// const BASE_URL = "http://127.0.0.1:3005";
 
 //!--> PAGINATION
 export async function PAGINATE(
